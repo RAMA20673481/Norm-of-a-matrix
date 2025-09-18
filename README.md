@@ -36,8 +36,7 @@ print(Norm_of_Matrix)
 # Infinity Norm of a Matrix
 
 import numpy as np
-mat=np.array(eval(input()))<img width="1221" height="381" alt="Screenshot 2025-09-18 090949" src="https://github.com/user-attachments/assets/2f59f16b-1cb0-4002-8671-cea63a251465" />
-
+mat=np.array(eval(input()))
 ans=np.linalg.norm(mat,np.inf)
 Norm_of_matrix="{:.2f}".format(ans)
 print(Norm_of_matrix)
